@@ -1,0 +1,11 @@
+/* hide scrollbar */
+
+/* firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* webkit: chrome edge safari opera */
+::-webkit-scrollbar {
+  display: none;
+}
